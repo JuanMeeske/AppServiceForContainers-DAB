@@ -2,6 +2,12 @@
 
 This repository contains scripts and configuration files for deploying a Data API Builder instance on Azure App Service with SQL Server and Azure Storage integration.
 
+# Why App service for Containers?
+
+As of September 2024, the database connection for Azure Static Web Apps is still in [preview](https://learn.microsoft.com/en-us/azure/static-web-apps/database-overview), which made it unfit for my use case. So I developed this script.
+
+However, I also recommend considering [Azure Container Apps](https://learn.microsoft.com/en-us/azure/data-api-builder/tutorial-deploy-container-app-cli), which I prefer as a more scalable and robust solution.
+
 ## What is Data API Builder?
 
 Data API Builder (DAB) is a powerful, cross-platform tool that simplifies the creation of APIs for database operations. It replaces custom CRUD APIs with a zero-code, configuration-based approach. Key features include:
