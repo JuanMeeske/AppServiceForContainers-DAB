@@ -64,6 +64,13 @@ DAB significantly reduces codebase size, eliminates many unit tests, shortens CI
 
 This script will create the necessary Azure resources and deploy the Data API Builder.
 
+Post deployment the script wil try to reach the deployed API. This takes a while because the App Service for Containers needs to start.
+You will see something that looks like:
+
+```
+
+```
+
 ## Deployment Process
 
 The `runScript.ps1` script performs the following actions:
