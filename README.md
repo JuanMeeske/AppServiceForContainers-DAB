@@ -64,11 +64,15 @@ DAB significantly reduces codebase size, eliminates many unit tests, shortens CI
 
 This script will create the necessary Azure resources and deploy the Data API Builder.
 
-Post deployment the script wil try to reach the deployed API. This takes a while because the App Service for Containers needs to start.
+Post deployment the script wil try to reach the deployed API. This takes a while because the App Service for Containers needs to start, and this takes some time.
 You will see something that looks like:
 
 ```
-
+Attempting to reach the API at http://mydabapi-uksouth-wjbf123.azurewebsites.net/swagger for 5 minutes...
+Failed to reach the API at 09:20:11. Retrying...
+Failed to reach the API at 09:20:41. Retrying...
+Failed to reach the API at 09:21:11. Retrying...
+Successfully reached the API at 09:21:39      
 ```
 
 ## Deployment Process
