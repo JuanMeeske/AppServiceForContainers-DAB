@@ -107,11 +107,12 @@ For comprehensive information on Data API Builder, refer to the official Microso
 - [GraphQL API reference](https://learn.microsoft.com/en-us/azure/data-api-builder/graphql-api-reference)
 - [Security and authentication](https://learn.microsoft.com/en-us/azure/data-api-builder/authentication-authorization)
 
-For additional resources, tutorials, and best practices, visit [jmsk.io](https://jmsk.io).
+
 
 ## Contributing
 
 Feel free to submit issues or pull requests if you have suggestions for improvements or encounter any problems.
+For additional resources, tutorials, and best practices, my website [jmsk.io](https://jmsk.io).
 
 ## License
 
